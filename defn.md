@@ -1,5 +1,4 @@
 
-
 The .position() method allows us to retrieve the current position of an element (specifically its margin box) relative to the offset parent (specifically its padding box, which excludes margins and borders).
 
 
@@ -7,9 +6,10 @@ The .offset() method allows us to retrieve the current position of an element (s
 
 
 
-
-
 https://api.jquery.com/position/#position
+
+
+https://api.jquery.com/offset/#offset
 
 
 ### Position():
