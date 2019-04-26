@@ -1,8 +1,15 @@
-The position() method gets the top and left position of an element relative to its offset parent.
-
-The offset( ) method gets the current offset of the first matched element, in pixels, relative to the document. 
 
 
+The .position() method allows us to retrieve the current position of an element (specifically its margin box) relative to the offset parent (specifically its padding box, which excludes margins and borders).
+
+
+The .offset() method allows us to retrieve the current position of an element (specifically its border box, which excludes margins) relative to the document. Contrast this with .position(), which retrieves the current position relative to the offset parent. When positioning a new element on top of an existing one for global manipulation (in particular, for implementing drag-and-drop), .offset() is more useful.
+
+
+
+
+
+https://api.jquery.com/position/#position
 
 
 ### Position():
